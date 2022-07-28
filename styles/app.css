@@ -1,0 +1,14 @@
+.content {
+    background-color: #e3faf9; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#e3faf9, #fff);
+}
+
+.grid-container {
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+}
+
+.grid-item {
+    width: 100%;
+    padding: 40px;
+}

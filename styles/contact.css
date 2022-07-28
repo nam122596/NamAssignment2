@@ -1,0 +1,34 @@
+.content {
+    height: calc(78vh - 4px);
+    background-color: #e3faf9; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#e3faf9, #fff);
+}
+
+.contact-form {
+
+}
+
+.contact-row {
+    padding: 16px 100px;
+}
+
+.contact-row input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #dedede;
+    font-family: 'Handlee';
+    text-align: center;
+}
+
+.contact-row input:focus-visible {
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.form-btn {
+    font-family: 'Handlee';
+}
+
+.form-name-input {
+    margin-right: 5px;
+}

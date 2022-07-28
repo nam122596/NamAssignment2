@@ -1,0 +1,43 @@
+.content {
+    display: flex;
+    height: calc(78vh - 4px);
+    background-color: #e3faf9; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#e3faf9, #fff);
+}
+
+.content-item {
+    height: calc(78vh - 4px);
+    margin: 0 auto;
+}
+
+.content-text {
+    color: #fff;
+    padding: 65% 36%;
+    text-align: center;
+    font-family: 'Handlee';
+    font-size: 36px;
+}
+
+.content-image {
+    background-size: cover;
+}
+
+.content-image:hover {
+    filter: brightness(1.3);
+}
+
+a {
+    text-decoration: none!important;
+}
+
+#poster {
+    background-image: url('../assets/bg_project_1.png');
+}
+
+#character {
+    background-image: url('../assets/bg_project_2.png');
+}
+
+#web {
+    background-image: url('../assets/bg_project_3.png');
+}
